@@ -1,2 +1,2 @@
-# OT_Clone
-Oregon Trail Clone
+# TBDC
+Text Based Dungeon Crawler
