@@ -41,16 +41,19 @@ inquirer.prompt([
                         console.log("\n");
 
                         if (user.room3 === "Charge through the polished door to your right.") {
+                            console.log("\n");
                             console.log("You bounce into the door, expecting it to budge, and bounce off, falling to the ground. You stand up and shake your head, getting reoriented with your surroundings. You take one last look at the door and see upon further inspection that there is a deadbolt keeping the door shut.");
                             console.log("\n");
                         }
 
                         if (user.room3 === "Walk up to the furnace door and peer inside.") {
+                            console.log("\n");
                             console.log("As you open the furnace door wider, you get blasted by a wall of hot air. When you lean through the opening, you see a fire smouldering at the bottom of the pit a long ways down, and the remnants of a ladder on the other side of the chimney.");
                             console.log("\n");
                         }
 
                         if (user.room3 === "Examine the room.") {
+                            console.log("\n");
                             console.log("You look around the room, taking everything in. As the lighting above you flickers on an off, you see a chair sitting in the corner, with some sort of dark puddle underneath it. Looking at the door in front of you, you notice that there is something carved into the wood. You approach it and read 'Dead end ahead'.");
                             console.log("\n");
                         }
