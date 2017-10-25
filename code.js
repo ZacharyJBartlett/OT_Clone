@@ -73,8 +73,36 @@ inquirer.prompt([
         };
 
         if (user.Room1 === "Move through the door in front of you.") {
-            console.log("You are now in room 2.");
+            console.log("\n");
+
+            inquirer.prompt([
+                {
+                    type: "list",
+                    name: "room2",
+                    message: "As you open the door in front of you, you are greeted by a seemly impregnable darkness. You step through the doorway and try to find a lightswitch only to shudder as you feel something lightly brush against your shoulder.",
+                    choices: ["Quickly swipe at your shoulder, barely touching something leathery as it falls away from you.", "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky", "Turn and walk out of the room."]
+                }
+            ]).then(function(user) {
+                console.log("\n");
+
+                if (user.room2 === "Quickly swipe at your shoulder, barely touching something leathery as it falls away from you.") {
+                    console.log("\n");
+                    console.log("option1");
+                    console.log("\n");
+                }
+                if (user.room2 === "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky.") {
+                    console.log("\n");
+                    console.log("asd");
+                    console.log("\n");
+                }
+                if (user.room2 === "Turn and walk out of the room.") {
+                    console.log("\n");
+                    console.log("option3");
+                    console.log("\n");
+                }
+            })
         }
+        
 
 
         if (user.Room1 === "Examine the pile of rubble.") {
@@ -128,7 +156,7 @@ inquirer.prompt([
                 if (user.SecondTry === "Move through the door in front of you.") {
                     console.log("You are now in room 2");
                 }
-            })
+            });
         }
         if (user.Menu === "Options") {
             //     console.log("\n\n\n"); {
