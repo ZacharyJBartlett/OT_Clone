@@ -80,7 +80,7 @@ inquirer.prompt([
                     type: "list",
                     name: "room2",
                     message: "As you open the door in front of you, you are greeted by a seemly impregnable darkness. You step through the doorway and try to find a lightswitch only to shudder as you feel something lightly brush against your shoulder.",
-                    choices: ["Quickly swipe at your shoulder, barely touching something leathery as it falls away from you.", "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky", "Turn and walk out of the room."]
+                    choices: ["Quickly swipe at your shoulder, barely touching something leathery as it falls away from you.", "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky.", "Turn and walk out of the room."]
                 }
             ]).then(function(user) {
                 console.log("\n");
