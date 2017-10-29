@@ -87,7 +87,7 @@ inquirer.prompt([
 
                 if (user.room2 === "Quickly swipe at your shoulder, barely touching something leathery as it falls away from you.") {
                     console.log("\n");
-                    console.log("option1");
+                    console.log("As you swipe at what touched your shoulder, you hear a plop as it hits the ground. You bend down and grasp for it, your fingers closing around a leg. You lift it up and try to view it in the dim light, making out multiple spindly legs and what seems to be small wings that feel leathery to the touch.");
                     console.log("\n");
                 }
                 if (user.room2 === "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky.") {
