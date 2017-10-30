@@ -92,12 +92,12 @@ inquirer.prompt([
                 }
                 if (user.room2 === "Grab at the wall, looking for a light switch, only to come in contact with something wet and sticky.") {
                     console.log("\n");
-                    console.log("asd");
+                    console.log("You pull your hand off the wall, bringing it to your face. you sniff this substance, and then lick it, getting a distinct coppery taste in your mouth.");
                     console.log("\n");
                 }
                 if (user.room2 === "Turn and walk out of the room.") {
                     console.log("\n");
-                    console.log("option3");
+                    console.log("You decide that its best to leave that room alone until you have some sort of light source to see things better.");
                     console.log("\n");
                 }
             })
