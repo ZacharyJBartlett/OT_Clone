@@ -1,5 +1,6 @@
 # TBDC
-Text Based Dungeon Crawler involving multiple stages. all ran through node.
+Text Based Dungeon Crawler involving multiple stages.
 
-#Tech included 
-inquirer
+maneuver through levels inside terminal to reach the final stage. 
+
+all options are made with inquirer.
